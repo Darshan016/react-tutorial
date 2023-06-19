@@ -10,6 +10,8 @@ import Child from './components/Child'
 import GreetUser from './components/GreetUser'
 import NameList from './components/NameList'
 import Form from './components/Form'
+import PostList from './components/PostList'
+import PostForm from './components/PostForm'
 
 function App() {
   return (
@@ -25,7 +27,9 @@ function App() {
     {/* <Parent /> */}
     {/* <GreetUser /> */}
     {/* <NameList /> */}
-    <Form/>
+    {/* <Form/> */}
+    {/* <PostList/> */}
+    <PostForm/>
 
 
     </div>
