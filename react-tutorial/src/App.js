@@ -12,6 +12,14 @@ import NameList from './components/NameList'
 import Form from './components/Form'
 import PostList from './components/PostList'
 import PostForm from './components/PostForm'
+import HookCounter from './components/HookCounter'
+import HookCounterTwo from './components/HookCounterTwo'
+import HookCounterThree from './components/HookCounterThree'
+import HookCounterFour from './components/HookCounterFour'
+import HookCounterUseEffect from './components/HookCounterUseEffect'
+import HookMouse from './components/HookMouse'
+import IntervalHookCounter from './components/IntervalHookCounter'
+import DataFetchingWithHook from './components/DataFetchingWithHook'
 
 function App() {
   return (
@@ -29,7 +37,15 @@ function App() {
     {/* <NameList /> */}
     {/* <Form/> */}
     {/* <PostList/> */}
-    <PostForm/>
+    {/* <PostForm/> */}
+    {/* <HookCounter/> */}
+    {/* <HookCounterTwo/> */}
+    {/* <HookCounterThree/> */}
+    {/* <HookCounterFour/> */}
+    {/* <HookCounterUseEffect/> */}
+    {/* <HookMouse/> */}
+    {/* <IntervalHookCounter/> */}
+    <DataFetchingWithHook/>
 
 
     </div>
